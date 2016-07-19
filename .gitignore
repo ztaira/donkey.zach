@@ -1,3 +1,6 @@
+# (output file)
+output
+
 # Compiled Object files
 *.slo
 *.lo
