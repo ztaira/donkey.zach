@@ -68,16 +68,16 @@ int main()
                 mycar.move(0, 10);
                 break;
             case 'w':
-                mycar.move(-1, 0);
+                mycar.move(-3, 0);
                 break;
             case ',':
-                mycar.move(-1, 0);
+                mycar.move(-3, 0);
                 break;
             case 's':
-                mycar.move(1, 0);
+                mycar.move(3, 0);
                 break;
             case 'o':
-                mycar.move(1, 0);
+                mycar.move(3, 0);
                 break;
         }
         mycar.draw(1);
