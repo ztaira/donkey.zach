@@ -30,7 +30,7 @@ int main()
     // draw them all
     werase(stdscr);
     donkey mydonkey = donkey(0, 0, win_height, win_width);
-    car mycar = car(30, 30);
+    car mycar = car(30, 30, win_height, win_width);
     vector<grass> grassvector;
     for (int i=0; i<win_height; i+=5)
     {
@@ -105,12 +105,12 @@ int collision(donkey *obj1, car *obj2)
     // mvprintw(1, 0, to_string(obj1->ul_y).c_str());
     // mvprintw(2, 0, to_string(obj2->ul_x).c_str());
     // mvprintw(3, 0, to_string(obj2->ul_y).c_str());
-    if (obj2->ul_y > obj1->ul_y and obj2->ul_y < obj1->ul_y + obj1->height
+    if (obj2->ul_y >= obj1->ul_y and obj2->ul_y < obj1->ul_y + obj1->height
             and obj2->ul_x > obj1->ul_x and obj2->ul_x < obj1->ul_x + obj1->width)
     {
         return 1;
     }
-    else if (obj2->ul_y > obj1->ul_y and obj2->ul_y < obj1->ul_y+obj1->height 
+    else if (obj2->ul_y >= obj1->ul_y and obj2->ul_y < obj1->ul_y+obj1->height 
             and obj2->ul_x+obj2->width > obj1->ul_x and obj2->ul_x+obj2->width < obj1->ul_x + obj1->width)
     {
         return 1;
