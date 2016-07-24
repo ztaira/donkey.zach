@@ -7,6 +7,7 @@ engaging.
 - Captivating storyline
 - Realistic graphics
 - Movement in two whole dimensions rather than back and forth
+- Works with both qwerty and dvorak-style keyboards
 
 ### What it does:
 - Uses the ncurses library to render ASCII-based text art
