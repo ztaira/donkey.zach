@@ -3,6 +3,12 @@ Hack-A-Week 3: Racing game inspired by Bill Gate's and Neil Konzen's
 legendary game DONKEY.BAS. I also tweaked up the gameplay to make it a bit more
 engaging.
 
+### Usage:
+- Executable file is named 'donkey.zach' by default (see makefile)
+- To run, execute it as follows from the donkey.zach directory:
+
+`./donkey.zach`
+
 ### Features:
 - Captivating storyline
 - Realistic graphics
