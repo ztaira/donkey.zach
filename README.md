@@ -29,6 +29,21 @@ engaging.
 - I kinda like the current style. 
 - The work/reward ratio does not seem worth it for such a short-term project
 
+### Included Files:
+```
+- README.md.......................This readme file
+- car.cpp.........................Car class file
+- car.h...........................Car header file
+- diagrams........................Reference images and diagrams folder
+- donkey.cpp......................Donkey class file
+- donkey.h........................Donkey header file
+- donkey.zach.....................Example Executable
+- grass.cpp.......................Grass class file
+- grass.h.........................Grass header file
+- main.cpp........................Main function
+- makefile........................Makefile
+```
+
 ### Example Gameplay:
 
 ### Opening Screen:
