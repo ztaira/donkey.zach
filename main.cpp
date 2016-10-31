@@ -8,12 +8,13 @@
 using namespace std;
 
 int collision(donkey *obj1, car *obj2);
-void lose_screen(int y, int x);
+void lose_screen(int y, int x, int score);
 void open_screen(int y, int x);
 
 int main()
 {   
     int ch, win_height, win_width;
+    int score = 0;
     // create a screen
     // get the screen's height and width
     initscr();
@@ -85,9 +86,11 @@ int main()
         {
             break;
         }
+        score++;
+        mvprintw(1, 1, "Score: %d", score);
     }
     werase(stdscr);
-    lose_screen(win_height/2, win_width/2);
+    lose_screen(win_height/2, win_width/2, score);
     refresh();
     while((ch = getch())!='q')
     {
@@ -118,12 +121,13 @@ int collision(donkey *obj1, car *obj2)
     return 0;
 }
 
-void lose_screen(int y, int x)
+void lose_screen(int y, int x, int score)
 {
     mvprintw(y-2, x-4, "YOU LOSE");
     mvprintw(y, x-16, "Driving a racecar through a crowd");
     mvprintw(y+1, x-17, "of donkeys was probably a bad idea.");
-    mvprintw(y+3, x-7, "Press q to exit");
+    mvprintw(y+3, x-4, "Score: %d", score);
+    mvprintw(y+5, x-7, "Press q to exit");
 }
 
 void open_screen(int y, int x)
