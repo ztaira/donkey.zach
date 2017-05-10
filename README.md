@@ -48,15 +48,12 @@ engaging.
 
 ### Opening Screen:
 
-![alt text][outputimage]
-[outputimage]: https://github.com/ztaira14/bleep/blob/master/diagrams/openingscreen.png "Opening Screen"
+![alt text](https://github.com/ztaira14/bleep/blob/master/diagrams/openingscreen.png "Opening Screen")
 
 ### Gameplay:
 
-![alt text][outputimage2]
-[outputimage2]: https://github.com/ztaira14/bleep/blob/master/diagrams/gameplay.png "Gameplay"
+![alt text](https://github.com/ztaira14/bleep/blob/master/diagrams/gameplay.png "Gameplay")
 
 ### Closing Screen:
 
-![alt text][outputimage3]
-[outputimage3]: https://github.com/ztaira14/bleep/blob/master/diagrams/closingscreen.png "Closing Screen"
+![alt text](https://github.com/ztaira14/bleep/blob/master/diagrams/closingscreen.png "Closing Screen")
